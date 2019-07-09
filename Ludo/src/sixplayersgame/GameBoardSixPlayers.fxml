@@ -12,7 +12,7 @@
 
 <SplitPane fx:id="splitPane" dividerPositions="0.6978653530377669" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sixplayersgame.GameBoardSixPlayersController">
   <items>
-      <GridPane fx:id="gridPaneLeft" style="-fx-background-color: Yellow;">
+      <GridPane fx:id="gridPaneLeft" style="-fx-background-color: Grey;">
         <columnConstraints>
             <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
@@ -480,7 +480,7 @@
             </Circle>
          </children>
       </GridPane>
-      <GridPane fx:id="gridPaneRigth">
+      <GridPane fx:id="gridPaneRigth" style="-fx-background-color: LightGrey;">
         <columnConstraints>
           <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
